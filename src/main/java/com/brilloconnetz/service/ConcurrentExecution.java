@@ -1,4 +1,4 @@
-package com.brilloconnetz.models;
+package com.brilloconnetz.service;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -7,18 +7,21 @@ import java.util.Random;
 public class ConcurrentExecution {
 
     public void execute(int slot) {
+        LocalDateTime startTime = LocalDateTime.now();
+
         for (int i = 1; i <= slot; i++) {
-            LocalDateTime startTime = LocalDateTime.now();
             run();
-            LocalDateTime endTime = LocalDateTime.now();
-
-            Duration duration = Duration.between(startTime, endTime);
-
-            System.out.printf("Starting time for 30 seconds slot %s%n",  startTime);
-            System.out.printf("Ending time for 30 seconds slot %s%n", endTime);
-            System.out.println("Elapsed time: " + duration.toMillis() + " milliseconds");
             System.out.println();
         }
+
+        LocalDateTime endTime = LocalDateTime.now();
+        Duration duration = Duration.between(startTime, endTime);
+
+        System.out.printf("Starting time for 30 seconds slot %s%n",  startTime);
+        System.out.printf("Ending time for 30 seconds slot %s%n", endTime);
+        System.out.println("Total Elapsed time for " + slot + " slot: " + duration.toMillis() + " milliseconds");
+        System.out.println();
+
     }
     public void run() {
 

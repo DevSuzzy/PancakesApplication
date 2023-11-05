@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9262ed4-d0ca-4418-b51a-b296dfc3551a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/ConcurrentExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/NonConcurrentExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/Observations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/ConcurrentExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/service/ConcurrentExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/NonConcurrentExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/service/NonConcurrentExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/Observations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brilloconnetz/models/Result.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +55,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="ConcurrentExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.brilloconnetz.models.ConcurrentExecution" />
+      <option name="MAIN_CLASS_NAME" value="com.brilloconnetz.service.ConcurrentExecution" />
       <module name="PancakesApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brilloconnetz.models.*" />
+          <option name="PATTERN" value="com.brilloconnetz.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="NonConcurrentExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.brilloconnetz.models.NonConcurrentExecution" />
+      <option name="MAIN_CLASS_NAME" value="com.brilloconnetz.service.NonConcurrentExecution" />
       <module name="PancakesApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brilloconnetz.models.*" />
+          <option name="PATTERN" value="com.brilloconnetz.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +98,7 @@
       <module name="PancakesApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brilloconnetz.models.*" />
+          <option name="PATTERN" value="com.brilloconnetz.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

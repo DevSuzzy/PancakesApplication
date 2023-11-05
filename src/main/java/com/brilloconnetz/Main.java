@@ -1,11 +1,27 @@
 package com.brilloconnetz;
 
-import com.brilloconnetz.models.NonConcurrentExecution;
-import com.brilloconnetz.models.ConcurrentExecution;
+import com.brilloconnetz.service.NonConcurrentExecution;
+import com.brilloconnetz.service.ConcurrentExecution;
 
 import java.util.Scanner;
 
 public class Main {
+
+
+    /** this Class is used to initialize a program that has a concurrent and non-current solution
+     *
+     * Observations:
+     *
+     * The non-concurrent solution uses CompletableFuture and array structures to manage concurrent
+     * operations and collect results.
+     *
+     * The non-concurrent solution is more concise and direct in modeling the problem.
+     * In summary, the non-concurrent solution offers a straightforward and simplified approach to modeling
+     * the problem without the need for complex asynchronous constructs. On the other hand, the concurrent
+     * solution is slower due to its presence of blocking operations.
+     *
+     **/
+
     public static void main(String[] args) {
         executeProgram();
     }
